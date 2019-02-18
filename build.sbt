@@ -11,4 +11,4 @@ libraryDependencies ++= Seq(
   "com.dimafeng" %% "testcontainers-scala" % "0.22.0" % "test"
 )
 
-testOptions in Test += Tests.Argument("-l", "testcontainer.scala.tags")
+testOptions in Test += Tests.Argument("-l", "testcontainer.scala.tags.IgnoreTag")
